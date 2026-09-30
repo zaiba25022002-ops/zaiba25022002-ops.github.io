@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Business - Contact Us</title>
+
+    <style>
+        body {
+            font-family: Arial;
+            max-width: 600px;
+            margin: 50px auto;
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 12px;
+            margin: 8px 0 15px;
+            box-sizing: border-box;
+        }
+
+        button {
+            padding: 12px 25px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>My Business</h1>
+
+    <p>Welcome to our digital marketing business.</p>
+
+    <h2>Contact Us</h2>
+
+    <form id="contact-form">
+
+        <label>Name</label>
+        <input type="text" name="name" required>
+
+        <label>Email</label>
+        <input type="email" name="email" required>
+
+        <label>Message</label>
+        <textarea name="message" required></textarea>
+
+        <button type="submit">Submit</button>
+
+    </form>
+
+    <p id="success"></p>
+
+</body>
+</html>
